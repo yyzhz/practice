@@ -1,0 +1,23 @@
+.wrap{
+    width: 1000px;
+    height: auto;
+    background: #ccc;
+    margin: 0 auto;
+    & div{
+        height: 300px;
+    }
+    &-left{
+        float: left;
+        width: 300px;
+        background: violet;
+    }
+    &-right {
+        float: right;
+        width: 300px;
+        background: indigo;
+    }
+    &-center{
+        margin: 0 300px 0 300px;
+        background: cyan;
+    }
+}

@@ -1,0 +1,27 @@
+.wrap {
+  width: 1000px;
+  height: auto;
+  background: #ccc;
+  margin: 0 auto;
+}
+
+.wrap div {
+  height: 300px;
+}
+
+.wrap-left {
+  float: left;
+  width: 300px;
+  background: violet;
+}
+
+.wrap-right {
+  float: right;
+  width: 300px;
+  background: indigo;
+}
+
+.wrap-center {
+  margin: 0 300px 0 300px;
+  background: cyan;
+}

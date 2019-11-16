@@ -1,0 +1,24 @@
+{
+  "name": "git",
+  "version": "1.0.0",
+  "description": "hello this is my readme.txt\r do you think ther is realy good",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yyzhz/practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yyzhz/practice/issues"
+  },
+  "homepage": "https://github.com/yyzhz/practice#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  }
+}
