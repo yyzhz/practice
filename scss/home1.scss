@@ -10,14 +10,55 @@
         float: left;
         width: 300px;
         background: violet;
+        .wl-nav{
+            height: auto;
+            ul{
+                background: #ddd;
+                li{
+                    float: left;
+                    padding: 20px;
+                    background: #d3d;
+                    cursor: pointer;
+                }
+                li:hover{
+                    background: red;
+                }
+            }
+        }
+    }
+    &-center{
+        margin: 0 300px 0 300px;
+        background: cyan;
+        div img{
+            display: block;
+            width: 200px;
+            height: 200px;
+        }
     }
     &-right {
         float: right;
         width: 300px;
         background: indigo;
+        p{
+            color: pink;
+        }
     }
-    &-center{
-        margin: 0 300px 0 300px;
-        background: cyan;
-    }
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+.clearfix{
+    *zoom: 1;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    height: 0;
+    clear: both;
 }

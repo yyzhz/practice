@@ -15,13 +15,64 @@
   background: violet;
 }
 
+.wrap-left .wl-nav {
+  height: auto;
+}
+
+.wrap-left .wl-nav ul {
+  background: #ddd;
+}
+
+.wrap-left .wl-nav ul li {
+  float: left;
+  padding: 20px;
+  background: #d3d;
+  cursor: pointer;
+}
+
+.wrap-left .wl-nav ul li:hover {
+  background: red;
+}
+
+.wrap-center {
+  margin: 0 300px 0 300px;
+  background: cyan;
+}
+
+.wrap-center div img {
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+
 .wrap-right {
   float: right;
   width: 300px;
   background: indigo;
 }
 
-.wrap-center {
-  margin: 0 300px 0 300px;
-  background: cyan;
+.wrap-right p {
+  color: pink;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:after {
+  content: '';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  height: 0;
+  clear: both;
 }
